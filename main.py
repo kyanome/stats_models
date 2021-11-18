@@ -15,5 +15,3 @@ if __name__ == '__main__':
                         default='configs/vae.yaml')
     args = parser.parse_args()
     main(args)
-
-  
