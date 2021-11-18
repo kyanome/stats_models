@@ -1,0 +1,16 @@
+model_name:
+  name: 'VanillaVAE'
+
+model_params:
+  in_channels: 784
+  hidden_dims: 400
+  latent_dim: 20
+
+exp_params:
+  dataset: MNIST
+  batch_size: 128 
+
+trainer_params:
+  optimizer: VAE_Optimizer
+  max_epochs: 10
+
